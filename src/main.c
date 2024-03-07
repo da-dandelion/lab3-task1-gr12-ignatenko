@@ -10,7 +10,7 @@
 
 int main(int argc, char* argv[]) {
     // Check if the number of command-line arguments is as expected
-    if (argc != 3) {
+    if (argc != 1) {
         printf("Incorrect number of command-line arguments.\n");
         return 1;
     }
