@@ -9,14 +9,10 @@
 #include "massive.h"
 
 int main(int argc, char* argv[]) {
-    // Check if the number of command-line arguments is as expected
-    if (argc != 1) {
-        printf("Incorrect number of command-line arguments.\n");
-        return 1;
-    }
+    nt size;
 
-    // Get the size of the arrays from the command-line arguments
-    int size = atoi(argv[1]);
+    printf("Enter the size of the arrays: ");
+    scanf("%d", &size);
 
     // Create arrays
     int* a = create_array(size);
