@@ -9,7 +9,7 @@
 #include "massive.h"
 
 int main(int argc, char* argv[]) {
-    nt size;
+    int size;
 
     printf("Enter the size of the arrays: ");
     scanf("%d", &size);
