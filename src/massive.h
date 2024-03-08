@@ -12,6 +12,6 @@ void fill_array(int* array, int size);
 int count_even(int* array, int size);
 int count_odd(int* array, int size);
 void print_array(int* array, int size);
-void print_array2(int* array, int size);
+void fill_array2(int* array, int size);
 
 #endif

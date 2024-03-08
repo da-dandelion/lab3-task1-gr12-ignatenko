@@ -21,14 +21,15 @@ int main(int argc, char* argv[]) {
     // Fill the arrays with random numbers
     srand(time(NULL));    
     fill_array(a, size);
-    fill_array(b, size);
+    srand(time(NULL)+1);
+    fill_array2(b, size);
 
     // Print the sequences
     printf("First sequence:\n");
     print_array(a, size);
 
     printf("Second sequence:\n");
-    print_array2(b, size);
+    print_array(b, size);
 
     // Call the functions to count even and odd numbers
     int even_count_a = count_even(a, size);
