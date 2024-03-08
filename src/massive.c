@@ -26,7 +26,7 @@ void fill_array(int* array, int size) {
 }
 
 void fill_array2(int* array, int size) {
-    srand(time(NULL));
+    srand(time(NULL)+1);
 
     for (int i = 0; i < (2 * size); i++) {
         if(i >= size)
