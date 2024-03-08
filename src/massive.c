@@ -28,8 +28,11 @@ void fill_array(int* array, int size) {
 void fill_array2(int* array, int size) {
     srand(time(NULL));
 
-    for (int i = 0; i < size; i++) {
+    for (int i = 0; i < (2 * size); i++) {
+        if(i >= size)
+	{
         array[i] = rand();
+	}
     }
 } 
 
