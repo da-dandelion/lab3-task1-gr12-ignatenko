@@ -21,7 +21,6 @@ int main(int argc, char* argv[]) {
     // Fill the arrays with random numbers
     srand(time(NULL));    
     fill_array(a, size);
-    srand(time(NULL) + 1);
     fill_array(b, size);
 
     // Print the sequences
