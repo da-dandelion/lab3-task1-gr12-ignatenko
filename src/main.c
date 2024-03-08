@@ -28,7 +28,7 @@ int main(int argc, char* argv[]) {
     print_array(a, size);
 
     printf("Second sequence:\n");
-    print_array(b, size);
+    print_array2(b, size);
 
     // Call the functions to count even and odd numbers
     int even_count_a = count_even(a, size);

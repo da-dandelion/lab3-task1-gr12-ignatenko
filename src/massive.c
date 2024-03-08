@@ -25,6 +25,14 @@ void fill_array(int* array, int size) {
     }
 }
 
+void fill_array2(int* array, int size) {
+    srand(time(NULL));
+
+    for (int i = 0; i < size; i++) {
+        array[i] = rand();
+    }
+} 
+
 int is_even(int num) {
     return num % 2 == 0;
 }
