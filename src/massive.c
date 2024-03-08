@@ -21,18 +21,15 @@ void fill_array(int* array, int size) {
     srand(time(NULL));
 
     for (int i = 0; i < size; i++) {
-        array[i] = rand();
+        array[i] = rand() % 777;
     }
 }
 
 void fill_array2(int* array, int size) {
     srand(time(NULL)+1);
 
-    for (int i = 0; i < (2 * size); i++) {
-        if(i >= size)
-	{
-        array[i] = rand();
-	}
+    for (int i = 0; i < size; i++) {
+        array[i] = rand() % 10000;
     }
 } 
 
